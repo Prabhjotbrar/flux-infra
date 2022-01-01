@@ -6,10 +6,10 @@ metadata:
   namespace: flux-system
 spec:
   dependsOn:
-  - name: voteapp
+  - name: redisapp
   healthChecks:
   - kind: Deployment
-    name: instavote
+    name: 
     namespace: instavote
   interval: 1m0s
   path: ./deploy/instavote
