@@ -12,7 +12,7 @@ spec:
     name: instavote 
     namespace: instavote
   interval: 1m0s
-  path: ./deploy/instavote
+  path: ./deploy/instavote/dev
   prune: true
   sourceRef:
     kind: GitRepository
